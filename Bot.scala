@@ -1,16 +1,7 @@
-// Example Bot #1: The Reference Bot
-
-
-/** Reference bot as base
- *  This bot builds a 'direction value map' that assigns an attractiveness score to
-  * each of the eight available 45-degree directions. Additional behaviors:
-  * - aggressive missiles: approach an enemy master, then explode
-  * - defensive missiles: approach an enemy slave and annihilate it
+/** 
+  *  This bot was built on the reference bot. I added extra functionality
+  *  to make the bot spawn foraging minibots
   *
-  * The master bot uses the following state parameters:
-  *  - dontFireAggressiveMissileUntil
-  *  - dontFireDefensiveMissileUntil
-  *  - lastDirection
   * The mini-bots use the following state parameters:
   *  - mood = Aggressive | Defensive | Lurking | Foraging
   *  - target = remaining offset to target location
